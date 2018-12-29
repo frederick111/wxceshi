@@ -34,4 +34,23 @@
         <servlet-name>uploadMediaServlet</servlet-name>
         <url-pattern>/uploadMediaServlet</url-pattern> <!--url-pattern必须与servlet-name一致-->
     </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>weAuthServlet</servlet-name>
+        <servlet-class>mian.cn.tong.wx.WxAuthServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>weAuthServlet</servlet-name>
+        <url-pattern>/weAuthServlet</url-pattern> <!--url-pattern必须与servlet-name一致-->
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>authServlet</servlet-name>
+        <servlet-class>mian.cn.tong.wx.AuthServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>authServlet</servlet-name>
+        <url-pattern>/authServlet</url-pattern> <!--url-pattern必须与servlet-name一致-->
+    </servlet-mapping>
 </web-app>
